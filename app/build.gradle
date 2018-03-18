@@ -25,7 +25,6 @@ android {
             v1SigningEnabled true
             v2SigningEnabled true
         }
-
         debug {
             keyAlias KEY_ALIAS
             keyPassword KEY_PASSWORD

@@ -147,8 +147,6 @@ public class LoginModel {
         void LoginInterfaceError(String msg);
         void LoginInterfaceOnFair(String msg);
 
-
-
     }
 }
 
