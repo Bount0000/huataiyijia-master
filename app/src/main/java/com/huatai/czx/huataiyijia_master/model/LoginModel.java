@@ -139,6 +139,7 @@ public class LoginModel {
 }
     private  LoginInterface loginInterface ;
 
+
     public void setLoginInterface(LoginInterface loginInterface) {
         this.loginInterface = loginInterface;
     }
