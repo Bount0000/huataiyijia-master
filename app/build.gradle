@@ -1,0 +1,92 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.huatai.czx.huataiyijia_master"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+/*    signingConfigs {
+        release {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile rootProject.file(KEYSTORE_FILE)
+            storePassword KEYSTORE_PASSWORD
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+
+        debug {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile rootProject.file(KEYSTORE_FILE)
+            storePassword KEYSTORE_PASSWORD
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }*/
+    //指定生成安装文件配置
+    buildTypes {
+        release {
+            // 是否进行混淆
+            /*minifyEnabled false
+            zipAlignEnabled true
+            //去除不必要的文件（as2.2minifyEnabled已经包含此条命令）
+            shrinkResources false
+            // 混淆文件的位置
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'*/
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //网络请求okhttp3
+    compile 'com.squareup.okhttp3:okhttp:3.8.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    //retrofit2
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.2'
+    implementation files('libs/Msc.jar')
+    implementation project(':CordovaLib')
+}

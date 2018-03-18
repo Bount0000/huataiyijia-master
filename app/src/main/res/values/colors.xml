@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ToolBar-->
+    <color name="colorPrimary">#DDDDDD</color>
+    <color name="colorPrimaryDark">#DDDDDD</color>
+    <color name="colorAccent">#1EB8FF</color>
+
+    <color name="transparent">#0000</color><!-- 透明 -->
+    <color name="transparent2">#8000</color><!-- 透明 -->
+    <color name="transparent15">#D9000000</color>
+    <color name="transparent30">#b3000000</color>
+    <color name="transparent40">#99000000</color>
+    <color name="transparent60">#66000000</color>
+    <color name="orange">#FFC700</color>
+    <color name="yellowff">#FF8828</color>
+    <color name="green">#47C44C</color>
+    <color name="light_green">#AFE0B1</color>
+    <color name="backround_fff5d1">#FFF5D1</color>
+    <color name="black">#000000</color>
+    <color name="black72">#727272</color>
+    <color name="black21">#212121</color>
+    <color name="blackb5">#b5b5b5</color>
+    <color name="black97">#979797</color>
+    <color name="black19">#191919</color>
+    <color name="blackcc">#cccccc</color>
+    <color name="blackdd">#DDDDDD</color>
+    <color name="gray5a">#5a545d</color>
+    <color name="grayb4">#B4A3BD</color>
+    <color name="grayd3">#d3d3d3</color>
+    <color name="purple">#483D4E</color>
+    <color name="purple7b">#7B4698</color>
+    <color name="purple28">#281433</color>
+    <color name="background_color">#eeeeee</color>
+    <color name="line">#dfdfdf</color>
+    <color name="linede">#F7F7F7</color>
+    <color name="white">#fff</color>
+    <color name="red">#F34135</color>
+    <color name="blue">#00AEFF</color>
+    <color name="light_blue">#1187DAFF</color>
+    <color name="black_5a">#5A545D</color>
+    <color name="blackf5">#F5F5F5</color>
+    <color name="black0f">#0F0F0F</color>
+    <color name="bg_page">#f4f4f4</color>
+    <!--loading-->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <color name="black_de">#DE000000</color>
+
+    <!--颜色-->
+    <color name="gary">#898989</color>
+    <color name="darkgrey">#C0C0C0</color>
+    <color name="black66">#666666</color>
+    <color name="blue1e">#1EB8FF</color>
+    <color name="blue07">#079FE5</color>
+    <color name="blue1c">#1CB3FF</color>
+    <color name="blue04">#048FCF</color>
+    <color name="blueff">#FFEE61</color>
+    <color name="bluea3">#A3E2FF</color>
+    <color name="blueab0">#B0E6FF</color>
+    <color name="bluedb">#DBF1FF</color>
+    <color name="blue1E8">#1E83FF</color>
+    <color name="blueff8">#FF8933</color>
+    <color name="black99">#999999</color>
+    <color name="black33">#333333</color>
+    <color name="orangeFF">#FF7054</color>
+    <color name="orangeFFb">#FFB22C</color>
+    <color name="orangeFFd">#FFD02C</color>
+    <color name="orangeFFA">#FFA735</color>
+    <color name="orangeFFc">#FFC62C</color>
+    <color name="green00">#00C884</color>
+    <color name="redff">#FF3B3B</color>
+    <color name="whitemi">#F0EBD5</color>
+    <color name="bluezt">#74C0E3</color>
+    <!--水波纹可用-->
+    <color name="rippelColor">#0F0F0F</color>
+    <color name="grey">#D7D7D7</color>
+
+    <!--筛选分割线颜色-->
+    <color name="graydd">#DDDDDD</color>
+    <color name="orangeff">#FFB431</color>
+    <color name="orange7">#E7A025</color>
+
+    <color name="transparent_background">#50000000</color>
+
+
+</resources>

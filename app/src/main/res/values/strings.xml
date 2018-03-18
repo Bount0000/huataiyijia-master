@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">华泰保险</string>
+    <string name="name">苏梅</string>
+    <string name="bumen">部门</string>
+    <string name="workemil">15011462829@163.com</string>
+    <string name="daima">1000000</string>
+    <string name="phone">15011462829</string>
+
+    <!--提示框所需-->
+    <string name="tips">提示</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_ing">立即设置</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_ed">稍后再说</string>
+    <string name="go_look">去看看</string>
+    <!--设置提示框所需-->
+    <string name="oldmima">请输入旧密码</string>
+    <string name="newmima">请输入新密码</string>
+    <string name="twonewmima">请再输入新密码</string>
+
+</resources>
