@@ -146,6 +146,7 @@ public class LoginModel {
         void LoginInterfaceSucces(LoginBean bean);
         void LoginInterfaceError(String msg);
         void LoginInterfaceOnFair(String msg);
+
     }
 }
 
